@@ -1,6 +1,6 @@
 # Complete Website Developed in MERN Stack
 
-![alt text](/client/src/components/layout/caravanlogo.png "Logo Title Text 1")
+![alt text](/client/src/components/layout/caravan.png "Logo Title Text 1")
 
 This was an experiment website I designed/developed for one of my client whose major goal was to generate conversion.
 
