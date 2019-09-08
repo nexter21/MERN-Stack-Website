@@ -1,0 +1,32 @@
+{
+  "name": "caravan_official_site",
+  "version": "1.0.0",
+  "description": "Full Stack application for Redis Coding Institute",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon index",
+    "client": "npm start --prefix client",
+    "start": "node index",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "heroku-postbuild": "cd client && npm install --only=dev && npm install && npm run build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bcrypt": "^3.0.3",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "concurrently": "^4.1.0",
+    "express": "^4.16.4",
+    "gravatar": "^1.8.0",
+    "mongoose": "^5.3.16",
+    "nodemailer": "^5.1.1",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "prop-types": "^15.6.2",
+    "request-country": "^0.1.4",
+    "validator": "^10.11.0"
+  }
+}

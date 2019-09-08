@@ -1,0 +1,13 @@
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 28px;
+  }
+  html {
+    font-size: 14px;
+  }
+
+  #trekImage {
+    height: 16rem;
+    width: auto;
+  }
+}

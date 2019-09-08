@@ -1,0 +1,2136 @@
+.App {
+  color: #696b6d;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+a {
+  text-decoration: none !important;
+  color: inherit;
+}
+a:hover {
+  color: grey;
+}
+body.modal-open {
+  overflow: visible;
+}
+
+.blogs {
+  margin-top: 5rem;
+}
+
+#blogWriter {
+  height: 2rem;
+  border-radius: 2rem;
+}
+span#writerSpan {
+  padding-top: 2rem;
+}
+#blogInfo {
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #e5e7ea;
+  padding-bottom: 2rem;
+  padding-right: 0;
+  margin-right: 0;
+}
+#blogDate {
+  color: #4f5050;
+}
+
+#mainBlogSection {
+  margin-top: 2rem;
+}
+.row.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.counter {
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+  color: #000;
+  background: #f8f9fa;
+  margin-bottom: 1rem;
+}
+
+#counterNumber {
+  font-size: 5rem;
+}
+
+#counterText {
+  font-size: 1.5rem;
+}
+
+.creditCards {
+  font-size: 4rem;
+}
+.creditCards i {
+  margin-right: 2rem;
+}
+.aboveNav span {
+  float: right;
+  font-size: 2.4rem;
+}
+.aboveNav span i {
+  margin-right: 1rem;
+}
+.navbar-brand {
+  margin-left: 3rem;
+}
+.navbar {
+  border-bottom: 2px solid black;
+  /* margin-top: 2.9rem; */
+  margin-bottom: 1rem;
+}
+ul.navbar-nav {
+  margin-left: 25rem;
+}
+a#navbarDropdownMenuLink {
+  color: #474d56;
+  margin-right: 1.5rem;
+}
+
+a#navbarDropdownMenuLink:hover {
+  color: black;
+}
+#dropdownMenu {
+  border: 1px solid black;
+  margin-top: 0.6rem;
+  background: #f8f9fa;
+}
+
+.dropdown-menu a {
+  color: #474d56;
+}
+.dropdown-menu a:hover {
+  color: white;
+  background: black;
+}
+
+#nav-link {
+  margin-right: 1rem;
+  color: #474d56;
+}
+
+#nav-link:hover {
+  color: black;
+}
+.landingPage {
+  padding-top: 3rem;
+}
+.landingPage h2 {
+  text-align: center;
+}
+
+.carousel-item {
+  height: 450px;
+}
+
+.carousel-image-1 {
+  background: url("./img/climbing.jpg");
+  background-size: cover;
+}
+
+.carousel-image-2 {
+  background: url("https://steemitimages.com/DQmXZ48CndbU7cAT6TjnXYWwyZpXEytryKXuZJrbBFk2nHw/top-5-shiva-temples-in-kathmandu-valley-nepal.jpeg");
+  background-size: cover;
+}
+
+.carousel-image-3 {
+  background: url("./img/trekking.jpg");
+  background-size: cover;
+}
+
+.trekking {
+  margin-top: 2rem;
+}
+
+#courseHeading {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+img#blogImage {
+  height: 30rem;
+  width: 120rem;
+}
+
+img#trekCardImg {
+  height: 15rem;
+}
+
+h1.h1trek {
+  margin: 1rem 0rem 0rem 20rem;
+}
+
+#trekIntro {
+  margin-top: 2rem;
+  border: 1px solid grey;
+  padding: 1rem;
+}
+
+.treks {
+  margin: 3rem 0 0 2rem;
+}
+
+.treks .card {
+  display: inline-block;
+}
+
+.trekCard {
+  margin: 0 1.54rem 1.54rem 0;
+}
+
+.trek {
+  margin-top: 5rem;
+}
+h1.trekh1 {
+  margin-bottom: 1.5rem;
+  color: black;
+}
+
+#trekImage {
+  height: 26rem;
+  width: auto;
+  margin-bottom: 0;
+}
+
+.promoButton {
+  margin: 0rem 0rem 1rem 0rem;
+  padding: 0.5rem 1.5rem 0.5rem 1rem;
+}
+
+.internalNav {
+  margin-top: 2rem;
+}
+
+.trekOverview {
+  text-align: justify;
+  color: #696b6d;
+}
+
+.trekPara {
+  border-left: 0.4rem solid #007bff;
+  padding-left: 2rem;
+}
+
+table.trekTable {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 2rem;
+}
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+/* 
+tr td.td1st {
+  width: 3rem;
+} */
+
+.trekTable td {
+  width: 1rem;
+}
+
+/* table.itiTable {
+ 
+} */
+
+.itinerary {
+  border-left: 0.4rem solid #ffc107;
+  padding-left: 2rem;
+}
+
+.whatIncluded {
+  margin-top: 1.5rem;
+}
+
+.excludes {
+  margin-top: 1.5rem;
+}
+.excludes .list-group {
+  border-left: 0.4rem solid #dc3545;
+  padding-left: 2rem;
+}
+.excludedUl {
+  margin-top: 1.5rem;
+}
+
+.includedUl {
+  margin-top: 1.5rem;
+}
+.whatIncluded .list-group {
+  border-left: 0.4rem solid #28a745;
+  padding-left: 2rem;
+}
+
+.departureDateM {
+  display: none;
+}
+
+.datesTable {
+  border-left: 0.4rem solid #868e96;
+  padding-left: 2rem;
+  margin-top: 1.5rem;
+}
+
+.internalNav a,
+.internalNav link {
+  margin-right: 0.2rem;
+  width: 9.5rem;
+}
+
+.extraInfo {
+  margin-top: 2rem;
+  font-size: 1.3rem;
+  background: #696b6d;
+}
+
+.customizeForm {
+  margin-top: 3rem;
+  border: 1px solid #000;
+  padding: 1rem;
+}
+
+.formForCustomize {
+  padding-top: 0.3rem;
+}
+
+.reviews {
+  margin-top: 2rem;
+}
+.reviewImg {
+  height: 3rem;
+  border-radius: 100%;
+}
+
+.traveller {
+  margin-top: 1rem;
+}
+
+.additional {
+  margin-top: 2rem;
+}
+.cmsSection {
+  margin-top: 5rem;
+}
+
+.modal-open {
+  padding-right: 0 !important;
+}
+
+.countryDrop {
+  width: 31.1rem;
+  height: 2rem;
+  color: grey;
+}
+
+.aboutUs {
+  margin-top: 3rem;
+  color: black;
+}
+
+#page-header {
+  height: 200px;
+  background: #474d56;
+  background-position: 0 -360px;
+  background-attachment: fixed;
+  color: white;
+  border-bottom: 1px #007bff solid;
+  padding-top: 50px;
+}
+
+.about-img {
+  margin-top: -50px;
+}
+#legalDocImg {
+  margin-top: 4rem;
+}
+.groupDiscount {
+  margin-top: 2rem;
+  color: #000;
+  border: 2px solid #000;
+}
+.groupDiscount .card {
+  padding: 1rem;
+}
+#react-modal-image-img {
+  padding-top: 6rem;
+}
+#horizontalImg {
+  margin-top: 5rem;
+}
+#authors img {
+  margin-top: -50px;
+}
+#authors #card {
+  margin-top: 4rem;
+}
+#authors .card:hover {
+  background: #007bff;
+  color: #fff;
+}
+#authors .fab {
+  color: #fff;
+}
+
+.essential {
+  margin-top: 5rem;
+}
+.essential h1 {
+  text-align: center;
+}
+.essential i {
+  font-size: 2rem;
+}
+.essential .group {
+  padding: 1rem;
+}
+.welcome {
+  margin-top: 2rem;
+}
+.welcome h2 {
+  color: #000;
+}
+.welcome span {
+  color: #000;
+  font-size: 1.3rem;
+  padding-top: 1rem;
+}
+.welcome #benefit {
+  margin-bottom: 2rem;
+}
+.welcome i {
+  color: white;
+  background: black;
+  border-radius: 9px;
+  font-size: 2rem;
+  padding: 0.8rem;
+  margin-top: 0.3rem;
+  margin-right: 2rem;
+}
+.welcome strong {
+  font-size: 1.2rem;
+}
+
+#welcomeText {
+  margin-top: 0.5rem;
+}
+#products {
+  padding-bottom: 5rem;
+  padding-top: 2rem;
+  border-bottom: 2px solid black;
+}
+#products .card {
+  border: 1px solid black;
+  margin-top: 1.5rem;
+}
+
+#products strong {
+  font-size: 1.4rem;
+}
+
+img#productImg {
+  height: 15rem;
+  width: auto;
+}
+
+#free button#freeButton {
+  width: 12rem;
+  height: 3rem;
+  margin-top: 0.5rem;
+}
+#free {
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+#free #phoneNo {
+  padding-left: 8rem;
+}
+#free #askButton {
+  padding-left: 12rem;
+  width: 3rem;
+}
+#askNowButton {
+  width: 12rem;
+  height: 3rem;
+  margin-top: 1rem;
+  font-size: 1.3rem;
+}
+#free .contactInfo {
+  margin-top: 1.5rem;
+}
+.dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+#video-play {
+  position: relative;
+  min-height: 200px;
+  /* background: url("https://www.sublimetrails.com/uploads/img/nepal-tour.jpg"); */
+
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: 0 -300px;
+  text-align: center;
+  color: #fff;
+}
+
+#video-play a {
+  color: #fff;
+}
+
+#testimonials {
+  margin-top: 3rem;
+}
+#clients h7 {
+  color: #007bff;
+}
+#tripButton {
+  font-size: 1.5rem;
+  color: white;
+}
+#share-section .fas {
+  background: #333;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+}
+#share-section .fas {
+  background: #333;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+}
+#share-section input {
+  border: 1px solid black;
+  height: 3rem;
+  width: 40rem;
+}
+
+.countryDrop {
+  border: 1px solid black;
+  height: 3rem;
+  width: 40rem;
+}
+
+#share-section textarea {
+  border: 1px solid black;
+  height: 5rem;
+  width: 40rem;
+}
+
+#formButton {
+  width: 40rem;
+}
+
+.footer #weAccept {
+  margin-top: 30rem !important;
+}
+
+.contact {
+  margin-top: 2rem;
+}
+.contactH2 {
+  color: white;
+  margin-bottom: 2rem;
+  padding-left: 4rem;
+}
+
+.partners {
+  margin-top: 2rem;
+}
+
+.partners img {
+  height: 10rem;
+}
+.partners #partner {
+  margin-left: 3rem;
+}
+
+#nepalis {
+  margin-top: 4rem;
+  margin-right: 4rem;
+}
+#nepalis #ntb {
+  padding-left: 8rem;
+}
+#nepalis #nma {
+  padding-left: 4rem;
+}
+#nepalis img {
+  height: 12rem;
+  margin-top: 1rem;
+}
+.container #title {
+  font-size: 1.5rem;
+  font: bold;
+}
+footer {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 2px solid black;
+  background: #f8f9fa;
+}
+footer span {
+  color: black;
+}
+footer #footerUl {
+  margin-top: 0.5rem;
+}
+footer #footerUl li {
+  margin-top: 0.3rem;
+  font-size: 1rem;
+  color: #27292d;
+}
+footer #caraTitle {
+  font-size: 2rem;
+}
+footer .col-4 li {
+  font-size: 1.2rem;
+
+  color: #27292d;
+}
+footer ul.list-unstyled {
+  margin-top: 1rem;
+}
+footer #socialMedia {
+  font-size: 1.7rem;
+}
+footer .socialLinks {
+  margin-top: 0.7rem;
+}
+footer .socialLinks a {
+  margin-right: 1rem;
+}
+footer .acceptedCards {
+  margin-top: 2rem;
+}
+.related {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+.related #mainCard {
+  background: #f8f9fa;
+  padding: 1rem;
+}
+.related .row {
+  padding-top: 0.5rem;
+}
+.related .row .card {
+  margin-bottom: 1rem;
+}
+.related p {
+  font-size: 0.9rem;
+}
+.related .card #destination {
+  margin-bottom: 3rem;
+}
+.related img {
+  height: 15rem;
+  padding: 0.3rem;
+}
+.related h4 {
+  color: #000;
+}
+.related .badge {
+  padding: 0.54rem;
+}
+.related #relatedButton {
+  width: 20rem;
+  margin-top: 1rem;
+}
+.related h4#h4 {
+  margin-top: 1rem;
+}
+.related #eachDestination {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+#countryDrop {
+  width: 31.2rem;
+  height: 2.5rem;
+  color: gray;
+  border-radius: 0.3rem;
+}
+.csr {
+  margin-top: 5rem;
+}
+.csr h1 {
+  text-align: center;
+  color: black;
+}
+.csr .row {
+  margin-top: 2rem;
+}
+.csrImg {
+  height: 35rem;
+  margin-bottom: 2rem;
+}
+ul li span.badge {
+  margin-right: 1rem;
+}
+.csr .indiImg {
+  margin-bottom: 1rem;
+}
+.faq {
+  margin-top: 5rem;
+}
+.faq h1 {
+  text-align: center;
+  color: black;
+  margin-bottom: 2rem;
+}
+.agent,
+.lgbt,
+.trekPeaks,
+.climbTerms,
+.ourTerms,
+.climate,
+.difficulty {
+  margin-top: 5rem;
+  text-align: justify;
+}
+.agent h2,
+.trekPeaks h2,
+.climbTerms h2,
+.ourTerms h2,
+.climate h2,
+.difficulty h2 {
+  text-align: center;
+  color: #000;
+}
+
+#lgbtImg {
+  height: 30rem;
+  margin-bottom: 1rem;
+}
+.lgbt {
+  text-align: justify;
+}
+.lgbt h2 {
+  color: #000;
+  margin-bottom: 1rem;
+}
+.climate i {
+  margin-right: 1rem;
+}
+.climate .precipitation {
+  color: black;
+  text-align: center;
+  margin-top: 1rem;
+}
+.climate .precipitation img {
+  margin-top: 1rem;
+}
+.season h3 {
+  color: #000;
+}
+.climate .season img {
+  margin-top: 2rem;
+  height: 15rem;
+}
+.climate {
+  font-size: 1.2rem;
+}
+#indiSeason {
+  margin-bottom: 2rem;
+}
+.difficulty #level {
+  font-size: 1.22rem;
+  margin-top: 1rem;
+}
+.difficulty #level img {
+  height: 10rem;
+}
+.notFound {
+  margin-top: 2rem;
+}
+.gautamWagle {
+  margin-top: 2rem;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.gautamWagle a {
+  margin: 1rem;
+}
+#clientImage {
+  height: 30rem;
+}
+.clientPhoto {
+  margin-top: 2rem;
+}
+.clientPhoto .card {
+  margin-top: 1rem;
+}
+.oneReview {
+  margin-bottom: 1rem;
+  text-align: start;
+}
+.oneReview img {
+  width: 20rem;
+}
+.oneReview #revText {
+  padding-left: 3rem;
+}
+.oneReview .card {
+  padding: 1rem;
+}
+#create-section {
+  margin-top: 4rem;
+}
+#documents {
+  margin-top: 5rem;
+}
+.documentImg {
+  height: 30rem;
+}
+.eachMonth button#dateMonth {
+  width: 4rem;
+  margin-bottom: 0.2rem;
+  height: 2.5rem;
+}
+.dates {
+  padding-left: 0rem;
+}
+.departTableM {
+  color: #000;
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+}
+
+#datesPackagesMonths {
+  margin-top: 1rem;
+  border-left: 0.4rem solid #868e96;
+  margin-left: 0.1rem;
+  padding-top: 1rem;
+}
+.departureDates {
+  margin-top: 1rem;
+}
+.nepal,
+.bhutan {
+  margin-top: 5rem;
+
+  color: #000;
+}
+#nepalCont {
+  margin-top: 2rem;
+}
+#nepalImg {
+  height: 28rem;
+}
+.nepalText {
+  text-align: justify;
+  margin-top: 2rem;
+  font-size: 1.2rem;
+}
+.exploreOptions {
+  margin-top: 2rem;
+}
+#exploreOptions {
+  margin-top: 3rem;
+}
+.exploreOptions img {
+  height: 13rem;
+}
+#quickFacts {
+  font-size: 1.4rem;
+}
+#bhutanImg {
+  margin-top: 1rem;
+  height: 32rem;
+}
+.bhutan .bhutanText {
+  margin-top: 3rem;
+  font-size: 1.3rem;
+  text-align: justify;
+}
+
+.thankYou {
+  margin-top: 4rem;
+}
+
+#thankP {
+  margin: 15rem 0 10rem 0rem;
+  font-size: 2rem;
+  text-align: center;
+}
+.finalForm {
+  margin-top: 2rem;
+  text-align: center;
+  background: #f8f9fa;
+}
+.finalForm .card {
+  padding: 2rem;
+}
+.finalForm button {
+  width: 10rem;
+  margin-left: 17rem;
+  margin-top: 1rem;
+}
+#lastButton {
+  color: #000;
+  width: 10rem;
+  margin-left: 17rem;
+}
+
+#bookNowImage {
+  height: 12rem;
+  margin-left: 7rem;
+}
+::placeholder {
+  color: red;
+  opacity: 1; /* Firefox */
+}
+
+#bookNowButton {
+  margin: 1rem 0 1rem 8rem;
+  width: 12rem;
+  font-size: 1.2rem;
+  padding: 0.3 0 0.4 0;
+}
+#regions {
+  margin-top: 2rem;
+}
+#regions {
+  color: #000;
+}
+#regions .card {
+  padding: 3px;
+  border: 1px solid #000;
+}
+#regions .card img {
+  margin-bottom: 0.5rem;
+}
+
+.additional ul {
+  border: 2px solid #000;
+  color: #000;
+  margin-top: 1rem;
+}
+
+.provided,
+.important {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.provided ul,
+.important ul {
+  border: 2px solid #000;
+  color: #000;
+  margin-top: 1rem;
+}
+.icons .whats {
+  display: none;
+}
+
+.icons .skype {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 20;
+  font-size: 2rem;
+  margin-left: 1rem;
+  margin-bottom: 1.2rem;
+}
+/* .dynamicHeader {
+  margin-top: 14rem;
+  color: #000;
+} */
+.promoMobile {
+  display: none;
+  width: 80%;
+  margin-left: 3rem;
+}
+
+.everest #ol1st {
+  margin: 1rem 0 0 2rem;
+}
+
+.everest #whyOl {
+  margin-top: 1rem;
+  text-align: justify;
+}
+
+#everestImage {
+  height: 21.5rem;
+}
+
+.everest #highlights {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+#playArea {
+  padding-top: 3.3rem;
+}
+
+#or {
+  display: none;
+}
+
+.quickInquiry {
+  margin-top: 2rem;
+  color: #000;
+  border: 1px solid #000;
+  padding: 0.6rem 1rem 1rem 1rem;
+  background: #f9f9f9;
+}
+
+.quickInquiry h3 {
+  margin-top: 1rem;
+}
+
+.quickInquiry button {
+  margin-top: 0.5rem;
+}
+
+.news {
+  border: 2px solid #000;
+  margin-top: 2rem;
+  padding: 1rem;
+  color: #000;
+}
+.news button {
+  margin-bottom: 0.4rem;
+}
+
+.priceCalc {
+  color: #000;
+  border: 2px solid #000;
+  margin-top: 1rem;
+  padding: 1rem;
+}
+.quickInquiry .form-control::placeholder {
+  color: #000;
+}
+
+.everestBase #everestHead {
+  margin-top: 4rem;
+  background-image: url("https://www.nepalhikingteam.com/wp-content/uploads/2017/12/everest-base-camp-trek-3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: blur(2px);
+}
+
+/* .everestBase #everestHead:after {
+  content: "";
+
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to bottom right, white, #00eeff);
+  opacity: 0.8;
+} */
+.everestBase h1,
+#mainHead {
+  padding-top: 10rem;
+  padding-bottom: 15rem;
+  position: relative;
+  z-index: 10;
+}
+
+.everestBase #packages h2 {
+  margin: 1.3rem 0 0rem 15rem;
+  color: #000;
+}
+
+.everestBase #packages #relatedButton {
+  padding: 0.5rem 4rem 0.5rem 4rem;
+  margin-left: 3.5rem;
+}
+.everestBase #packages .card {
+  border: 2px solid #000;
+  margin-top: 1rem;
+}
+.everestBase #packages .card img {
+  height: 12rem;
+}
+#baseCampText {
+  text-align: justify;
+  margin-top: 2rem;
+}
+
+#baseCampText h2 {
+  margin-top: 1.52rem;
+}
+
+.everestBase #mainHead {
+  position: absolute;
+  top: 5%;
+  left: 35%;
+  color: white;
+}
+
+.everestBase #mainHead span {
+  font-size: 2rem;
+}
+.conversionLP nav {
+  padding-bottom: 1rem;
+  background: white;
+}
+.conversionLP nav .text {
+  font-size: 1.2rem;
+}
+.conversionLP nav .text {
+  float: right;
+  margin: 1.8rem 4rem 0 0;
+
+  font: bold;
+}
+
+.conversionLP nav .text #phone {
+  margin-left: 1rem;
+}
+
+.conversionLP .hero {
+  background: url(../src/components/ConversionLP/everest2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 600px;
+  color: white;
+}
+.conversionLP #annapurnaHero {
+  background: url(../src/components/CLPFormat/imgs/abc.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 600px;
+  color: white;
+}
+.conversionLP .hero h1 {
+  z-index: 10;
+}
+
+.overlay {
+  position: absolute;
+  left: 10;
+  top: 40;
+  margin-left: 2rem;
+  margin-top: 7rem;
+  z-index: 3;
+}
+
+.overlay .card {
+  background: #000;
+  color: white;
+  opacity: 0.9;
+  width: 40rem;
+  text-align: center;
+}
+
+.overlay #priceCard {
+  margin-top: 0.1rem;
+}
+
+.hero .card-form {
+  opacity: 0.8;
+  margin-top: 9rem;
+  background: #000;
+}
+
+#heroButton {
+  margin: 3rem 0rem 0 1.5rem;
+  padding: 1rem 12rem 1rem 10rem;
+  font-size: 1.6rem;
+}
+
+.details {
+  margin-top: 2.5rem;
+  color: #000;
+}
+
+.details h1 {
+  margin: 1rem 0 0.7rem 40rem;
+}
+
+.details h2 {
+  margin: 1rem 0 0 15rem;
+}
+
+.details h3,
+.details h2#price {
+  margin: 1rem 0 0 3rem;
+}
+
+#details i {
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+i#dates {
+  margin-right: 1.7rem;
+}
+
+i#type {
+  margin-right: 1.8rem;
+}
+
+.includes {
+  color: #000;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.includes img {
+  height: 7rem;
+  margin-bottom: 1rem;
+  margin-top: 1.7rem;
+}
+
+.liner {
+  border-bottom: 2px solid #000;
+  margin-top: 2rem;
+}
+
+.landingIti {
+  margin-top: 2rem;
+}
+
+.landingIti button {
+  margin-left: 35rem;
+  font-size: 1.5rem;
+}
+
+#whyIti {
+  border-top: 2px solid #007bff;
+  padding-top: 2rem;
+  margin-top: 4rem;
+}
+
+#whyIti h2 {
+  margin: 1rem 0 0 35rem;
+}
+
+.landingReview {
+  color: #000;
+  margin-top: 0rem;
+  padding-top: 1rem;
+}
+
+.landingReview #meraReview {
+  height: 22rem;
+  margin-top: 2rem;
+  border: 1px solid #007bff;
+}
+
+.landingReview h1 {
+  margin-left: 35rem;
+}
+#lreviewtext {
+  font-size: 2rem;
+  margin-top: 2.5rem;
+}
+#lreviewtextA {
+  font-size: 1.8rem;
+  margin-top: 1.2rem;
+}
+#lreviewtext h2 {
+  margin-top: 1rem;
+}
+
+.cta {
+  margin-top: 0.1rem;
+  padding-bottom: 1rem;
+  padding-top: 2rem;
+  color: #000;
+  background: #f9f9f9;
+}
+
+.cta span {
+  font-size: 3rem;
+  color: #000;
+}
+.cta .form-control::placeholder {
+  color: #000;
+}
+
+.welcome .container {
+  padding-bottom: 2rem;
+}
+
+.gears {
+  margin-top: 5rem;
+}
+
+.convFooter {
+  border-top: 1px solid #000;
+}
+
+.convFooter h6 {
+  padding: 1rem;
+  color: #000;
+}
+.reviewdOn {
+  margin-top: 3rem;
+  color: #000;
+  /* border-top: 1px solid #000;
+  border-bottom: 1px solid #000; */
+  padding: 1rem 0 1rem 0rem;
+  background: #f9f9f9;
+}
+.convBookButton {
+  padding-left: 32rem;
+  margin-top: 2rem;
+  font-size: 1.2rem;
+}
+.convBookButton button {
+  font-size: 1.5rem;
+}
+.reviewdOn img {
+  height: 6rem;
+}
+
+.reviewdOn h3 {
+  padding-top: 2rem;
+}
+#associated {
+  margin-top: 0rem;
+  background: white;
+}
+#associated h4 {
+  padding-top: 2rem;
+}
+
+#associated img {
+  height: 8rem;
+}
+
+#ctaImage {
+  height: 20rem;
+  margin-top: 0.4rem;
+}
+
+.mobileHero {
+  display: none;
+}
+#associatedMobile {
+  display: none;
+}
+
+.rating .highlight,
+.rating .selected {
+  color: #f2b214;
+  text-shadow: 0 0 1px #000;
+  animation: 2s linear 0s normal none infinite running progress-bar-stripes;
+}
+
+.rating ul li {
+  display: inline-block;
+  cursor: pointer;
+  list-style-type: none;
+  color: #0094d8;
+  text-shadow: 0 0 1px #666666;
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+#breadcrumb {
+  list-style-type: none;
+  display: inline-block;
+  font-size: 0.9rem;
+  margin-left: 0rem;
+  padding-left: 0%;
+}
+
+#breadcrumb li {
+  float: left;
+}
+
+#breadcrumb li a {
+  color: #fff;
+  display: block;
+  background: #007bff;
+  text-decoration: none;
+  position: relative;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 10px 0 5px;
+  text-align: center;
+  margin-right: 23px;
+}
+
+#breadcrumb li:nth-child(even) a:before {
+  border-left-color: transparent;
+}
+
+#breadcrumb li:first-child a {
+  padding-left: 15px;
+  border-radius: 4px 0 0 4px;
+}
+
+#breadcrumb li:first-child a:before {
+  border: none;
+}
+
+#breadcrumb li:last-child a {
+  padding-right: 15px;
+  border-radius: 0 4px 4px 0;
+}
+
+#breadcrumb li:last-child a:after {
+  border: none;
+}
+
+#breadcrumb li a:before,
+#breadcrumb li a:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  border: 0 solid #007bff;
+  border-width: 20px 10px;
+  width: 0;
+  height: 0;
+}
+
+#breadcrumb li a:before {
+  left: -20px;
+  border-left-color: transparent;
+}
+
+#breadcrumb li a:after {
+  left: 100%;
+  border-color: transparent;
+  border-left-color: #007bff;
+}
+
+#breadcrumb li a:hover {
+  background: #1768ea;
+}
+
+#breadcrumb li a:hover:before {
+  border-color: #1768ea;
+  border-left-color: transparent;
+}
+
+#breadcrumb li a:hover:after {
+  border-left-color: #1768ea;
+}
+
+#breadcrumb li a:hover {
+  background: #1768ea;
+}
+
+#breadcrumb li a:hover:before {
+  border-color: #1768ea;
+  border-left-color: transparent;
+}
+
+#breadcrumb li a:hover:after {
+  border-left-color: #1768ea;
+}
+.cta #tablet {
+  display: none;
+}
+
+#extraPromo {
+  margin-top: 1rem;
+  margin-right: 0.4rem;
+}
+
+#promoInquiry {
+  font-size: 1.2rem;
+  padding-bottom: 0.4rem;
+  margin: 0 0 0 0.4rem;
+  padding: 0.5rem 7rem 0.5rem 7rem;
+}
+
+#extraPromo #promoCustomize {
+  font-size: 1.2rem;
+  padding-bottom: 0.4rem;
+}
+
+#tripAdvisor {
+  margin-bottom: 1rem;
+}
+
+#tripAdvisor img {
+  height: 4rem;
+}
+#customizeForm ::placeholder {
+  color: #000;
+}
+
+.promoOffer .card {
+  width: 23rem;
+}
+@media (max-width: 1025px) {
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 480px) and (max-width: 1024px) {
+  .counter {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    color: #000;
+    background: #f8f9fa;
+  }
+
+  #counterNumber {
+    font-size: 2.5rem;
+  }
+
+  #counterText {
+    font-size: 1rem;
+  }
+
+  .conversionLP .hero {
+    display: none;
+  }
+  .conversionLP .overlay {
+    display: none;
+  }
+
+  .mobileHero {
+    display: block;
+  }
+
+  #mobileImage {
+    height: 25rem !important;
+    width: auto;
+  }
+  #heroText {
+    padding-top: 1rem;
+  }
+  #heroText h4 {
+    font-size: 2rem;
+    width: 94%;
+  }
+
+  .mobileHero .card {
+    padding-right: 1rem;
+
+    padding-left: 0rem;
+    width: 10rem;
+  }
+
+  .mobileHero .card {
+    background: #000;
+    color: white;
+    opacity: 0.9;
+    width: 50.7rem;
+    text-align: center;
+  }
+
+  #heroButton {
+    margin: 2rem 0rem 0 11.5rem;
+    padding: 1rem 6rem 1rem 6rem;
+    font-size: 1.6rem;
+    /*box-shadow: 0px 8px 15px rgba(0, 105, 217, 0.3); */
+  }
+
+  #associated {
+    display: none;
+  }
+
+  #associatedMobile {
+    display: block;
+  }
+
+  #associatedMobile img {
+    height: 8rem;
+    margin-top: 1rem;
+  }
+
+  .details h1 {
+    margin-left: 20rem;
+    margin-bottom: 2rem;
+  }
+
+  .details h2 {
+    margin: 0;
+    font-size: 1.3rem;
+  }
+
+  .details h3,
+  .details h2#price {
+    margin: 0;
+    font-size: 1.2rem;
+  }
+
+  .convBookButton {
+    padding-left: 12rem;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+  }
+
+  #whyIti h2 {
+    margin: rem 0.5rem 0.6rem 4rem;
+  }
+  .includes img {
+    height: 5rem;
+    margin-bottom: 1rem;
+    margin-right: 10rem;
+    margin-top: 1.7rem;
+  }
+
+  .includes h6 {
+    font-size: 0.8rem;
+  }
+
+  .landingIti button {
+    margin-left: 13rem;
+    font-size: 1.5rem;
+  }
+  #whyIti h2 {
+    margin: 1rem 0 0.6rem 14rem;
+  }
+
+  .landingReview h1 {
+    margin: 0 0 0 15rem;
+  }
+
+  .landingReview #meraReview {
+    height: 25rem;
+    margin-top: 2rem;
+    border: 1px solid #007bff;
+  }
+
+  #lreviewtext {
+    font-size: 2rem;
+    margin-top: 2.5rem;
+  }
+
+  #lreviewtextA {
+    font-size: 1.7rem;
+    margin-top: 1.2rem;
+  }
+
+  .reviewdOn h3 {
+    font-size: 1.5rem;
+  }
+
+  .reviewdOn img {
+    margin-top: 1rem;
+    margin-left: 2rem;
+    height: 3rem;
+  }
+  /* #convForm {
+    margin-top: 23rem;
+    width: 100rem;
+  } */
+
+  .cta #normal {
+    display: none;
+  }
+  .cta #tablet {
+    display: block;
+  }
+  .cta #tablet #convForm {
+    margin-top: 1rem;
+  }
+}
+@media only screen and (max-width: 480px) {
+  h1 {
+    font-size: 24px;
+  }
+  h2 {
+    font-size: 25px;
+  }
+  html {
+    font-size: 12px;
+  }
+  body {
+    padding-right: 0px !important;
+  }
+
+  .promoButton {
+    margin: 0.3rem 0rem 1rem 0.4rem;
+    padding: 0.5rem 3rem 0.5rem 3rem;
+  }
+
+  #extraPromo #promoCustomize {
+    font-size: 1.2rem;
+    padding-bottom: 0.4rem;
+    margin: 0 0 0 4.3rem;
+  }
+
+  .counter {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    color: #000;
+    background: #f8f9fa;
+  }
+
+  #counterNumber {
+    font-size: 2rem;
+  }
+
+  #counterText {
+    font-size: 1rem;
+  }
+
+  #costEffective {
+    display: none;
+  }
+  .creditCards {
+    font-size: 3rem;
+  }
+  .creditCards i {
+    margin-right: 2rem;
+  }
+
+  #promoInquiry {
+    font-size: 1.2rem;
+    padding-bottom: 0.4rem;
+    margin: 0 0 0 0.4rem;
+    padding: 0.5rem 9.6rem 0.5rem 9.6rem;
+  }
+
+  .promoOffer .card {
+    width: 28rem;
+  }
+  .cta #tablet {
+    display: none;
+  }
+  #breadcrumb {
+    list-style-type: none;
+    display: inline-block;
+    font-size: 0.7rem;
+    margin-left: 0rem;
+    padding-left: 0%;
+  }
+
+  .landingReview h1 {
+    margin-left: 9rem;
+  }
+
+  .conversionLP nav .text {
+    margin: 0rem 0rem 0rem 0.9rem;
+    float: none;
+
+    font: bold;
+  }
+
+  .conversionLP .hero {
+    display: none;
+  }
+  .conversionLP .overlay {
+    display: none;
+  }
+  #landingNavImage {
+    padding-left: 7rem;
+  }
+
+  .mobileHero {
+    display: block;
+  }
+  #heroText {
+    padding-top: 1rem;
+  }
+  .mobileHero .card {
+    padding-right: 1rem;
+
+    padding-left: 0rem;
+    width: 10rem;
+  }
+
+  .mobileHero .card {
+    background: #000;
+    color: white;
+    opacity: 0.9;
+    width: 30.7rem;
+    text-align: center;
+  }
+
+  #heroButton {
+    margin: 1rem 0rem 0 2.5rem;
+    padding: 1rem 6rem 1rem 6rem;
+    font-size: 1.6rem;
+    /*box-shadow: 0px 8px 15px rgba(0, 105, 217, 0.3); */
+  }
+
+  #mobileImage {
+    height: 15rem;
+  }
+
+  #associated {
+    display: none;
+  }
+
+  #associatedMobile {
+    display: block;
+  }
+
+  #associatedMobile img {
+    height: 6rem;
+    margin-top: 1rem;
+  }
+
+  .details h1 {
+    margin-left: 12rem;
+    margin-bottom: 2rem;
+  }
+
+  .details h2 {
+    margin: 0;
+    font-size: 1.3rem;
+  }
+
+  .details h3,
+  .details h2#price {
+    margin: 0;
+    font-size: 1.2rem;
+  }
+
+  .convBookButton {
+    padding-left: 10rem;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+  }
+
+  #whyIti h2 {
+    margin: 1rem 0 0.6rem 4rem;
+  }
+
+  .landingIti button {
+    margin-left: 5rem;
+    font-size: 1.5rem;
+  }
+
+  .everestBase #mainHead {
+    position: absolute;
+    top: 2%;
+    left: 15%;
+    color: white;
+  }
+
+  .reviewdOn img {
+    margin-top: 2rem;
+    margin-left: 2rem;
+  }
+  #ctaImage {
+    height: 16rem;
+    margin-top: 0.4rem;
+    margin-bottom: 2rem;
+  }
+  .everestBase #mainHead span {
+    font-size: 1.2rem;
+  }
+  .everestBase #packages .card {
+    margin-left: 3rem;
+  }
+
+  .everestBase #packages h2 {
+    margin: 1.3rem 0 0rem 4.5rem;
+    color: #000;
+  }
+
+  .everestBase #everestHead {
+    margin-top: 4rem;
+    background-image: url("https://www.tibettravel.org/assets/images/nepal/nepal-ebc-trekking-tour4.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    filter: blur(2.5px);
+  }
+  .everestBase h1 {
+    padding-top: 10rem;
+    padding-bottom: 5rem;
+    margin-bottom: 0%;
+    position: relative;
+    z-index: 10;
+  }
+
+  #baseCampText {
+    text-align: justify;
+    margin-top: 0rem;
+  }
+
+  .oneReview img {
+    width: 17rem;
+    margin-left: 0rem;
+  }
+  .oneReview #revText {
+    padding-left: 7rem;
+    padding-top: 5rem;
+  }
+
+  #phoneNo {
+    margin-left: 3.5rem;
+  }
+
+  #askButton {
+    margin-left: 3rem;
+    margin-top: 0rem;
+  }
+
+  #partnerRow {
+    margin-left: 2rem;
+  }
+  #taan {
+    margin-left: 3rem;
+  }
+
+  #nepalis #nma {
+    padding-left: 8rem;
+  }
+
+  #or {
+    padding: 0 0 1rem 5rem;
+  }
+
+  #authors {
+    margin-bottom: 0.1rem;
+  }
+
+  #authors .card {
+    margin-bottom: 3rem;
+    margin-left: 2.5rem;
+    width: 25rem;
+  }
+
+  #authors p {
+    color: #000;
+    font-size: 1.5rem;
+  }
+
+  #playArea {
+    padding-top: 5rem;
+  }
+
+  #video-play h1 {
+    padding-top: 1rem;
+  }
+
+  .modal {
+    overflow-y: auto;
+  }
+  .icons .whats {
+    display: block;
+  }
+  .icons .skype {
+    display: none;
+  }
+  .icons .whatsApp {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 20;
+    font-size: 3rem;
+    margin-left: 1rem;
+    margin-bottom: 1.2rem;
+  }
+  #bookNowImage {
+    height: 9rem;
+    margin-left: 7rem;
+  }
+  .promoMobile {
+    display: block;
+    margin-top: 5rem;
+  }
+
+  .fa-circle {
+    color: #25d366;
+  }
+
+  ul.navbar-nav {
+    margin-left: 3rem;
+  }
+  .carousel .item {
+    height: 300px;
+  }
+
+  .item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 300px;
+  }
+  /* .carousel-image-1 {
+    background: url("http://www.ratravels.com/pic/beautiful-nepal.jpg");
+  }
+
+  .carousel-image-2 {
+    background: url("https://www.sublimetrails.com/uploads/img/nepal-tour.jpg");
+
+    background-size: cover;
+  }
+
+  .carousel-image-3 {
+    background: url("https://www.nepalascenttreks.com/images/slides/1511092262.Chitwan-nepal.jpg");
+    background-size: cover;
+  } */
+
+  #clientImage {
+    height: 15rem;
+  }
+  #trekImage {
+    height: 16rem;
+    width: auto;
+  }
+  h1.trekh1 {
+    margin-top: 6rem;
+    color: black;
+  }
+  .internalNav a,
+  .internalNav link {
+    margin-top: 0.3rem;
+    width: 9rem;
+  }
+  #monthList {
+    margin-bottom: 2rem;
+  }
+
+  #lastButton {
+    color: #000;
+    width: 17rem;
+    margin-left: 4c rem;
+  }
+  .promoOffer {
+    margin-bottom: 1rem;
+  }
+  #dateMonthM {
+    width: 4rem;
+    margin: 1px;
+  }
+
+  .trekPara {
+    border-left: 0.2rem solid #007bff;
+    padding-left: 1rem;
+  }
+
+  .itinerary {
+    border-left: 0.2rem solid #ffc107;
+    padding-left: 1rem;
+  }
+
+  .whatIncluded .list-group {
+    border-left: 0.2rem solid #28a745;
+    padding-left: 1rem;
+  }
+
+  .datesTable button {
+    font-size: 15px;
+  }
+
+  .departureDateM {
+    display: inherit;
+    margin-top: 2rem;
+  }
+
+  .departureDate {
+    display: none;
+  }
+
+  .datesTableMobile {
+    border-left: 0.2rem solid #868e96;
+    padding-left: 1rem;
+    font-size: 1rem;
+  }
+
+  #accordion span {
+    font-size: 12px;
+  }
+
+  img#blogImage {
+    height: 10rem;
+    width: 40rem;
+  }
+  h1.h1trek {
+    margin: 1rem 0rem 0rem 3rem;
+  }
+
+  .csrImg {
+    height: 18rem;
+  }
+  #lgbtImg {
+    height: 11rem;
+    margin-bottom: 1rem;
+  }
+  .climate .precipitation img {
+    margin-top: 1rem;
+    height: 12rem;
+  }
+  #share-section form {
+    margin-left: 3.5rem;
+  }
+  #share-section .form-control,
+  .countryDrop {
+    width: 24rem;
+    height: 3rem;
+  }
+
+  #share-section input {
+    border: 1px solid black;
+    height: 3rem;
+    width: 50rem;
+  }
+
+  #share-section textarea {
+    border: 1px solid black;
+    height: 5rem;
+    width: 40rem;
+  }
+
+  #formButton {
+    width: 24rem;
+  }
+  h2.contactH2 {
+    margin-bottom: 2rem;
+    padding-right: 3rem;
+    font-size: 1.5rem;
+  }
+  #partner {
+    margin-bottom: 1rem;
+  }
+  #lowerProducts {
+    display: none;
+  }
+  .welcome span {
+    font-size: 1.2rem;
+  }
+  .welcome i {
+    font-size: 1.5rem;
+    margin-right: 1rem;
+  }
+  #free #phoneNo {
+    padding-left: 5rem;
+    margin-bottom: 2rem;
+  }
+  #free #askButton {
+    padding-left: 6.5rem;
+  }
+  #indiCarousel {
+    height: 12rem;
+  }
+  #indiCarousel h1 {
+    font-size: 0.7rem;
+  }
+  #welcomeText {
+    margin-top: 1.5rem;
+  }
+  #create-section {
+    margin-top: 0rem;
+  }
+
+  #countryDrop {
+    width: 21.6rem;
+  }
+  #nepalImg,
+  #bhutanImg {
+    height: 14rem;
+  }
+}
+a {
+  color: inherit;
+}

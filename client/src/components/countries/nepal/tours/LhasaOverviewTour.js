@@ -1,0 +1,29 @@
+import React, { Component } from "react";
+        import OneDestination from "../../../common/OneDestination/OneDestination";
+
+        export default class LhasaOverviewTour extends Component {
+            componentDidMount() {
+    window.scrollTo(0, 0);
+  }
+          render() {
+            return (
+              <div>
+                <OneDestination
+                  title="Lhasa Overview Tour – 7 Days"
+                  url="https://www.caravanoutdoors.com/wp-content/uploads/2016/09/side-view-of-potala-palace.jpg"
+                  para1="Lhasa, also known as the Forbidden City, is the center of Tibet. A former place of Dalai Lama and the highest official seat was once barred from the foreigners. Today, it is a popular tourist getaway in the entire Tibet. Situated above 3,000 meters, Lhasa and the surrounding places are entirely semi-arid."
+                  para2=" It includes almost every tourist destination inside the city, namely; Potala Palace, Norbulingka, Jokhang Temple, Drepung Monastery and Barkhar Market.This tour is a complete 3 Days trip inside the Lhasa city. You get to explore every historical and religious destination"
+                  para3=" Witnessing the ethnic lifestyle and culture of the Tibetans can be quite an overwhelming experience for the foreigners. You fly into Lhasa via Kathmandu, where you can get a Visa/Permit to enter Tibet. The tour remains inside the Lhasa. After the completion of tour, you can fly out to Kathmandu and depart home.The detailed exploration of Lhasa came from the adventurer Heinrich Harrer and his travelogue “7 Years in Tibet.” Heinrich, along with his friend, entered Lhasa in a disguise. He was later instated as the tutor of the 14th Dalai Lama.Potala Palace is the major tourist site in Lhasa. The most part of the complex is open for public viewing, except the residence, study hall and few other chambers. You should consider starting the Potala Palace tour early in the morning to avoid hassle during the day when the influx of tourists is  high."
+                  itineraryes={[[["Arrival in Kathmandu"],["\nAt your arrival in Kathmandu, a member of our team will greet and receive you at the airport. You will be transferred to your hotel. Our representative will brief on your arrival about the trip. The rest of the day is yours. The evening we be spent enjoying complimentary local dinner one of the finest local diner with cultural program."]],[["Fly from Kathmandu to Lhasa"],["\nYou will fly to Lhasa from Kathmandu in a Trans-Himalaya flight. It may last for an hour. Lhasa is situated at the sheer altitude of 3,650 meters, on the north bank of Kyichu River. The altitude might make you feel dizzy.You’ll be transferred to a niche hotel inside around city area in Lhasa. You can spend the rest of the day relaxing and acclimatizing."]],[["Lhasa Tour Day I"],["\nAfter a hearty breakfast, you start the tour with the complete sightseeing of Potala Palace and Norbulinka. Potala Palace atop a hill is synonymous with the living god “Dalai Lama.” It is also known as the winter palace, because, Dalai Lama was used to transferred to Potala palace during the winter season in Tibet.Norbulingka is another major tourist site in Lhasa. It’s the former summer palace of the Dalai Lama. It means ‘Treasure Park’ and covers an area of around 360,000 sq. m, and is considered to be the biggest man made garden in Tibet."]],[["Lhasa Tour Day II "],["\nThe next on the tour is the sightseeing of the Sera Monastery, Jokhang Monastery and Barkhor Market. Sera Monastery, 5 km north of Lhasa, is one of Lhasa’s prettiest monasteries. Once a community of more than 5,000 monks resided here and was virtually extinguished by the Chinese occupation.Jokhang Temple, situated at the heart of Old Lhasa, houses Tibet’s most precious religious relic, a golden Shakyamuni Buddha which was brought as a gift by the Chinese Princess Wen Cheng on the occasion of her wedding to the Tibetan King, Tsongt Tsen Gompo.Barkhor Market is a social place and a popular historical site. You can roam around the market and explore the ancient architectures."]],[["Lhasa Tour Day III"],["\nToday, you visit the Drepung Monastery, Tibetan Medical Institute and a nunnery. Drepung is another monastery which has existed for a long time. It’s a major tourist site and popular among the Buddhist pupils. Later the day, you visit the Tibetan Medical Institute, followed by a visit to the Nunnery."]],[["Fly from Lhasa to Kathmandu"],["\nYou will be transfer to the airport where you can board the flight back to Kathmandu. Once landed, you’ll be transfer to your Hotel. The rest of the day you can spend sightseeing around Kathmandu city."]],[["Depart from Kathmandu"],["\nYou will be transferred to the Airport to catch your flight back home."]]]}
+                  includedListData={["Airports pick and drop","Entire Transportation during the tour.","Flight to and from Lhasa","Tibet Permit/Visa","Entire Meals ( B, L, D)","Certified, Experienced & Language versed Tour Guide","★★★★ Standard Accommodation in Kathmandu/Tourist Standard Hotels in Lhasa","Heritage Sites/National park Entrance Permits","All the Gov. and Local taxes as per applicable"]}
+                  excludedListData={["Nepal re-entry Visa fee","Evacuation Charges( In case Of Emergency)","Travel Insurance","Bar bills/Refreshments","Guide/Porter Tipping"]}
+                  departureDates={[]}
+                  promoOffer={["Lhasa Overview Tour – 7 Days","$ 1,880USD"]}
+                  details={["7 days","Full board on Tour","Transportation","2-10 Persons",null,"None","1-10 per Group"]}
+                  folderName = 'tour'
+                />
+              </div>
+            );
+          }
+        }
+        
