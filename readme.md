@@ -7,8 +7,6 @@ This website was designed with UX in mind to lead conversion through SEM, and is
 
 # Install
 
----
-
 ```
 $ npm install on '/'
 ```
