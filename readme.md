@@ -16,4 +16,4 @@ npm install on '/client'
 npm run dev
 ```
 
-The above command will start the MERN environment, It starts port 3000 for react and port 5000 for node/express, you can enter your email in /config/keys_dev , then when you submit any form, you'll get the form data in your email
+The above command will start the MERN environment, It starts `port 3000` for react and `port 5000` for node/express, you can enter your email in /config/keys_dev , then when you submit any form, you'll get the form data in your email
