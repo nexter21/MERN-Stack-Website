@@ -17,8 +17,6 @@ $ npm install on '/client'
 
 # Start the MERN Env
 
----
-
 ```
 $npm run dev
 ```
