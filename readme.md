@@ -1,5 +1,7 @@
 # Complete Website Developed in MERN Stack
 
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/components/layout/caravanlogo.png "Logo Title Text 1")
+
 This was an experiment website I designed/developed for one of my client whose major goal was to generate conversion.
 
 This website was designed with UX in mind to lead conversion through SEM, and is not optimzed for SEO
