@@ -7,6 +7,8 @@ This website was designed with UX in mind to lead conversion through SEM, and is
 
 # Install
 
+---
+
 ```
 $ npm install on '/'
 ```
@@ -17,10 +19,12 @@ $ npm install on '/client'
 
 # Start the MERN Env
 
+---
+
 ```
 $npm run dev
 ```
 
-The above command will start the MERN environment, It starts `port 3000` for react and `port 5000` for node/express, you can enter your email in `/config/keys_dev` , then when you submit any form, you'll get the form data in your email
+The above command will start the MERN environment, It starts `port 3000` for React and `port 5000` for Node/Express, you can enter your email in `/config/keys_dev` , then when you submit any form, you'll get the form data in your email
 
 > All the content was scraped using `Cheerio Js` from the original website [Caravan Outdoors](https://www.caravanoutdoors.com/)
