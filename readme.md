@@ -5,7 +5,7 @@
 This was an experiment website I designed/developed for one of my client whose major goal was to generate conversion.
 This website was designed with UX in mind to lead conversion through SEM, and is not optimzed for SEO
 
-#Install
+# Install
 
 ```
 $ npm install on '/'
@@ -15,7 +15,7 @@ $ npm install on '/'
 $ npm install on '/client'
 ```
 
-#Start the MERN Env
+# Start the MERN Env
 
 ```
 $npm run dev
